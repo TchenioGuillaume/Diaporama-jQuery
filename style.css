@@ -1,0 +1,11 @@
+.diaporama {
+width: 960px;
+height: 90vh; /* 90% de la hauteur du navigateur */
+overflow: hidden; /* permet de cacher les autres images */
+margin: 0 auto; /* Pour centrer la zone */
+}
+
+.diaporama img {
+width: 100%;
+/* Les images s’adaptent à la largeur de .diaporama (960px ici) */
+}
